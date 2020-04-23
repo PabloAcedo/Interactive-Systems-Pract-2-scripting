@@ -1,0 +1,24 @@
+Following the part 2 of the exercise, meaning the tutorial in the link,
+
+I have added:
+
+- Visuals: Using the 3D models of the project, when a sheep is hitted by a hay bale
+a red heart emerges and both 3D objects (the sheep and the heart) dissapears doing a
+"tweening" effect on the scale of the objects, all this with the TweenScale script.
+
+- Sound: Using a sound manager, I have added sound to the following events:
+	- When a hay bale is shooted
+	- When a sheep is hitted by a hay bale
+	- When the sheep drops(falls into the abyss)
+
+- Score: Now the game can keep an score of the hitted sheeps and the missed sheeps,
+all this using the managers Game State Manager. In order to show the score state, the
+User Interface Manager (UIManager) script uses the game data from the GameStateManager
+and shows it using sprites to represent the hits and the misses.
+
+-Access to the game scene from the title sceen and the possibility to quit the game
+using the start and wuit buttons from the title scene and adding the interaction with the
+user using the EventSystem which tracks the mouse state, also adding the color effects
+on the buttons when the mouse is over the buttons.
+
+   
